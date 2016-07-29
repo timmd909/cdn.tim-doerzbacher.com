@@ -18,8 +18,13 @@ module.exports = {
         src: '**',
         expand: true,
         dest: 'fonts/'
+      },
+      {
+        cwd: 'node_modules/bootstrap/js/',
+        src: '**',
+        expand: true,
+        dest: 'js/bootstrap/'
       }
-
     ]
   }
 };
