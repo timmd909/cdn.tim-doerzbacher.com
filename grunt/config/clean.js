@@ -1,5 +1,6 @@
 'use strict';
 
 module.exports = {
-  'css': 'css/'
+  'css': 'css/',
+  'fonts': 'fonts/',
 };
