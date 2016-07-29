@@ -10,5 +10,16 @@ module.exports = {
         dest: 'fonts/'
       }
     ]
+  },
+  'bootstrap': {
+    files: [
+      {
+        cwd: 'node_modules/bootstrap/fonts/',
+        src: '**',
+        expand: true,
+        dest: 'fonts/'
+      }
+
+    ]
   }
 };
